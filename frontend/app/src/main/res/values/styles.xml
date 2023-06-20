@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CartelTextViewStyle" parent="@android:style/TextAppearance">
+
+        <item name="android:fontFamily">@font/blacklettersh</item>
+    </style>
+</resources>
+
+<!-- <item name="android:background">@drawable/cartel_background</item> -->

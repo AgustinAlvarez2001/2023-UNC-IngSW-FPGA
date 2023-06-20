@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TrucoFPGA</string>
+    <string name="loginText">Truco FPGA!</string>
+    <string name="loginText2">Nombre...</string>
+    <string name="buttonTextLogin">Entrar!</string>
+</resources>
