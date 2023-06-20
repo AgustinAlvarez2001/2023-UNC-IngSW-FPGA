@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val myButton: Button = findViewById(R.id.buttonLogin)
 
-        myButton.setOnClickListener {
+        val botonEntrar: Button = findViewById(R.id.buttonLogin)
+        botonEntrar.setOnClickListener {
             val intent: Intent = Intent(this, comoJugar::class.java)
             startActivity(intent)
         }

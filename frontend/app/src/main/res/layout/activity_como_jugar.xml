@@ -4,7 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondotruco"
+    android:background="@drawable/fondocartas"
     tools:context=".comoJugar">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="247dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="@string/unoVsPc"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botonAyuda"
+        android:layout_width="377dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:backgroundTint="@color/white"
+        android:text="@string/buttonAyuda"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="255dp"
+        android:layout_height="75dp"
+        android:text="@string/unoVsUno"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="328dp"
+        android:layout_height="106dp"
+        android:text="@string/opcionesDeJuego"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
+        style="@style/CartelTextViewStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

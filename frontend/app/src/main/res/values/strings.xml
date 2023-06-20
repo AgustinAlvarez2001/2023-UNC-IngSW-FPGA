@@ -3,4 +3,8 @@
     <string name="loginText">Truco FPGA!</string>
     <string name="loginText2">Nombre...</string>
     <string name="buttonTextLogin">Entrar!</string>
+    <string name="opcionesDeJuego">Seleccione una opcion de juego!</string>
+    <string name="buttonAyuda">Instrucciones del Juego</string>
+    <string name="unoVsUno">1 vs. 1</string>
+    <string name="unoVsPc">1 vs. PC</string>
 </resources>

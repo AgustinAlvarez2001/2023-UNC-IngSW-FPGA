@@ -30,11 +30,13 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#000000"
         android:ems="10"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
         android:hint="Ingrese un Nombre..."
         android:inputType="text"
         android:textColorHint="#000000"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -56,9 +58,10 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.219" />
+        app:layout_constraintVertical_bias="0.221" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
