@@ -32,7 +32,7 @@
         android:ems="10"
         android:gravity="center"
         android:hapticFeedbackEnabled="false"
-        android:hint="Ingrese un Nombre..."
+        android:hint="@string/hint"
         android:inputType="text"
         android:textColorHint="#000000"
         android:textSize="30sp"

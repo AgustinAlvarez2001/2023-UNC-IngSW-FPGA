@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TrucoFPGA"
         tools:targetApi="31">
         <activity
+            android:name=".mesaJuego"
+            android:exported="false" />
+        <activity
+            android:name=".esperaOponente"
+            android:exported="false" />
+        <activity
             android:name=".TextoDeAyuda"
             android:exported="false" />
         <activity

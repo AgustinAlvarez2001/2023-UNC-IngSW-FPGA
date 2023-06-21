@@ -12,8 +12,18 @@ class comoJugar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_como_jugar)
 
-        val botonAyuda: Button = findViewById(R.id.botonAyuda)
-        botonAyuda.setOnClickListener {
+        val boton1Vs1: Button = findViewById(R.id.boton1Vs1)
+        boton1Vs1.setOnClickListener {
+            val intent: Intent = Intent(this, esperaOponente::class.java)
+            startActivity(intent)
+        }
+        val boton1VsPc: Button = findViewById(R.id.boton1VsPc)
+        boton1VsPc.setOnClickListener {
+            val intent: Intent = Intent(this, mesaJuego::class.java)
+            startActivity(intent)
+        }
+        val botonInstrucciones: Button = findViewById(R.id.botonInstrucciones)
+        botonInstrucciones.setOnClickListener {
             val intent: Intent = Intent(this, TextoDeAyuda::class.java)
             startActivity(intent)
         }

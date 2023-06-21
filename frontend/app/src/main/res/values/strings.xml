@@ -1,10 +1,20 @@
 <resources>
+    <!--Main-->
     <string name="app_name">TrucoFPGA</string>
     <string name="loginText">Truco FPGA!</string>
-    <string name="loginText2">Nombre...</string>
+    <string name="hint">Ingrese un Nombre...</string>
     <string name="buttonTextLogin">Entrar!</string>
+    <!--comoJugar-->
     <string name="opcionesDeJuego">Seleccione una opcion de juego!</string>
-    <string name="buttonAyuda">Instrucciones del Juego</string>
+    <string name="botonInstrucciones">Instrucciones del Juego</string>
     <string name="unoVsUno">1 vs. 1</string>
     <string name="unoVsPc">1 vs. PC</string>
+    <!--mesaJuego-->
+    <string name="envido">Envido</string>
+    <string name="realEnvido">Real Envido</string>
+    <string name="faltaEnvido">Falta Envido</string>
+    <string name="truco">Truco</string>
+    <string name="irseAlMazo">Irse al Mazo</string>
+    <string name="Ayuda">Ayuda</string>
+
 </resources>
